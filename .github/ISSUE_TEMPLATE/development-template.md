@@ -1,3 +1,11 @@
+---
+name: 🔧 Utviklingsoppgave
+about: Opprett en utviklingsoppgave
+title: "[Development] "
+labels: ["development"]
+assignees: []
+---
+
 # 🔧 Utviklingsoppgave: [Kort beskrivelse]
 
 ## 📘 Oversikt
