@@ -1,3 +1,11 @@
+---
+name: ✨ Feature
+about: Kort og tydelig beskrivelse av hva denne featuren er og hvorfor den er viktig.
+title: "[Feature] "
+labels: ["feature"]
+assignees: []
+---
+
 # ✨ Feature: [Navn på feature]
 
 ## 📌 Beskrivelse
