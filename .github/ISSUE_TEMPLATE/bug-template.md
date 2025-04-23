@@ -1,3 +1,11 @@
+---
+name: 🐞 Bugrapport
+about: Rapporter en feil slik at vi kan fikse den
+title: "[Bug] "
+labels: ["bug"]
+assignees: []
+---
+
 # 🐞 Bugrapport: [Kort beskrivende tittel]
 
 ## 📌 Beskrivelse
