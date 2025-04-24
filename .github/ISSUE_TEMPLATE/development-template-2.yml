@@ -3,8 +3,7 @@ description: Standard sjekkliste for utviklingsoppgaver
 title: "[Utvikling] "
 labels: ["utvikling"]
 assignees: []
-type: task  # 👈 Dette setter typen til "Task" i Projects (hvis støttet)
-project: Uno-X Prosjekt
+type: task
 
 body:
   - type: markdown
