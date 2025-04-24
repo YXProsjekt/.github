@@ -1,0 +1,44 @@
+name: Utviklingsoppgave
+description: Standard sjekkliste for utviklingsoppgaver
+title: "[Utvikling] "
+labels: ["utvikling"]
+assignees: []
+type: task  # 👈 Dette setter typen til "Task" i Projects (hvis støttet)
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🧩 Oppgavebeskrivelse
+        Beskriv kort hva som skal utvikles og hvorfor.
+
+  - type: textarea
+    id: beskrivelse
+    attributes:
+      label: Hva skal gjøres?
+      description: Beskriv oppgaven så konkret som mulig.
+      placeholder: F.eks. "Legge til støtte for PDF-eksport i rapportmodulen."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: sjekkliste
+    attributes:
+      label: ✅ Sjekkliste for utvikler
+      options:
+        - label: Logikk implementert
+        - label: Enhetstester skrevet
+        - label: Koden er lokalt testet
+        - label: Kode er gjennomgått (Code Review)
+        - label: Infrastruktur oppdatert (IaC)
+        - label: Deploy-skript eller pipelines oppdatert
+        - label: Dokumentasjon oppdatert
+        - label: Testet i staging/preprod
+        - label: Klar for produksjon
+
+  - type: textarea
+    id: testnotater
+    attributes:
+      label: 🧪 Testnotater (valgfritt)
+      description: Skriv gjerne hvordan det er testet, testdata brukt eller eventuelle spesielle scenarier.
+      placeholder: "F.eks. testet med bruker 'test123' i staging."
