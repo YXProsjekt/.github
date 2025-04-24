@@ -37,7 +37,6 @@ body:
         - label: Confluence-dokumentasjon oppdatert (om relevant)
         - label: Swagger-dokumentasjon oppdatert (om relevant)
         - label: Testet i staging/preprod
-        - label: Klar for produksjon
 
   - type: textarea
     id: testnotater
