@@ -1,4 +1,4 @@
-name: Utviklingsoppgave
+name: 🔧Utviklingsoppgave
 description: Standard sjekkliste for utviklingsoppgaver
 title: "[Utvikling] "
 labels: ["utvikling"]
@@ -32,7 +32,8 @@ body:
         - label: Kode er gjennomgått (Code Review)
         - label: Infrastruktur oppdatert (IaC)
         - label: Deploy-skript eller pipelines oppdatert
-        - label: Dokumentasjon oppdatert
+        - label: Confluence-dokumentasjon oppdatert (om relevant)
+        - label: Swagger-dokumentasjon oppdatert (om relevant)
         - label: Testet i staging/preprod
         - label: Klar for produksjon
 
