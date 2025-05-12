@@ -1,0 +1,23 @@
+name: Feature Request
+description: Foreslå en ny funksjon
+title: "[Feature] "
+labels: [enhancement]
+assignees: []
+
+body:
+  - type: input
+    id: feature-title
+    attributes:
+      label: Kort tittel på funksjonen
+      placeholder: F.eks. "Legg til støtte for mørk modus"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Beskrivelse av funksjonen
+      description: Forklar kort hva funksjonen gjør og hvorfor den er nyttig.
+      placeholder: F.eks. "Brukeren skal kunne bytte til mørk modus i brukerinnstillingene."
+    validations:
+      required: true
