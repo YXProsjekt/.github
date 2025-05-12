@@ -21,13 +21,3 @@ body:
       placeholder: F.eks. "Brukeren skal kunne bytte til mørk modus i brukerinnstillingene."
     validations:
       required: true
-      
-  - type: dropdown
-    id: priority
-    attributes:
-      label: Prioritet
-      options:
-        - Lav
-        - Middels
-        - Høy
-      default: Middels
