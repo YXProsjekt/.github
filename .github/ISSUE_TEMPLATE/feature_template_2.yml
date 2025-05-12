@@ -1,7 +1,7 @@
 name: Feature Request
 description: Foreslå en ny funksjon
-title: "[Feature] "
-labels: [enhancement]
+title: "[Feature] 🌟"
+labels: [feature]
 assignees: []
 
 body:
@@ -21,3 +21,13 @@ body:
       placeholder: F.eks. "Brukeren skal kunne bytte til mørk modus i brukerinnstillingene."
     validations:
       required: true
+      
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Prioritet
+      options:
+        - Lav
+        - Middels
+        - Høy
+      default: Middels
