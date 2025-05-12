@@ -21,3 +21,15 @@ body:
       placeholder: F.eks. "Brukeren skal kunne bytte til mørk modus i brukerinnstillingene."
     validations:
       required: true
+
+  - type: textarea
+    id: subtasks
+    attributes:
+      label: Deloppgaver (valgfritt)
+      description: Skriv inn eventuelle steg som må til for å gjennomføre funksjonen. Du kan bruke sjekkbokser med `- [ ]`.
+      placeholder: |
+        - [ ] Legg til knapp i UI
+        - [ ] Implementer tema-logikk
+        - [ ] Lagre valg i brukerinnstillinger
+    validations:
+      required: false
